@@ -3,7 +3,7 @@
   bottom: 0px;
   left: 6px;
   margin: 0;
-  content: url("file:img/typesafe-logo.png");  
+  content: url("file:../img/typesafe-logo.png");  
 }
 
 .deck-container .slide h1 {
