@@ -1,0 +1,112 @@
+.deck-container.agenda #slide-0:after {
+  position: absolute;
+  bottom: 0px;
+  left: 6px;
+  margin: 0;
+  content: url("file:img/typesafe-logo.png");  
+}
+
+.deck-container .slide h1 {
+  color: #084157;
+  font-size: 2.25em;
+  top: 40%;
+}
+
+.deck-container .slide h2 {
+  color: #084157;
+  font-size: 1.75em;
+}
+
+.deck-container .slide h2.exercise {
+  color: #990a00;
+}
+
+.deck-container .slide ::-moz-selection {
+  background: #084157;
+}
+
+.deck-container .slide ::selection {
+  background: #084157;
+}
+
+.deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
+  color: #084157;
+  text-decoration: underline;
+}
+
+.deck-container .slide a:hover {
+  color: #990a00;
+}
+
+.deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
+  background: #084157;
+}
+
+.deck-container .slide .CodeMirror {
+  margin-bottom: 1.25em;
+}
+
+.deck-container .slide img {
+  border: 1px solid #d3d3d3; 
+}
+
+.deck-container .slide ul ul {
+  margin-bottom: 0;
+}
+
+.deck-container .slide ul ul li:first-child {
+  padding-top: .5em;
+}
+
+.deck-container .slide ul ul li:last-child {
+  padding-bottom: 0;
+}
+
+.deck-container .slide .subtitle {
+  color: #084157;
+  position: absolute;
+  text-align: center;
+  top: 55%;
+  left: 0;
+  right: 0;
+}
+
+.deck-container .deck-status {
+  color: #084157;
+}
+
+.deck-container .deck-status.agenda {
+  left: 5px;
+}
+
+.deck-container .deck-status.agenda a {
+  color: #084157;
+}
+
+.deck-container.on-slide-0.agenda .deck-status.agenda {
+  display: none;
+}
+
+.deck-container .slide #concurrency {
+  background-color: transparent;
+  color: #990a00;
+  font-size: 2.25em;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+
+.deck-container .slide #distribution {
+  background-color: transparent;
+  color: white;
+  font-size: 2.25em;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
