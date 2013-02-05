@@ -244,18 +244,4 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
       }
     }
   });
-  CodeMirror.defineMIME("text/x-scala", {
-    name: "clike",
-    keywords: words("abstract case catch class def do else extends false final finally for if " +
-                    "implicit import lazy match new null object override package private protected " +
-                    "return sealed super this throw trait true try type val var while with yield"),
-    blockKeywords: words("catch class def do else finally for if match object trait try type while yield"),
-    atoms: words("true false null"),
-    hooks: {
-      "@": function(stream, state) {
-        stream.eatWhile(/[\w\$_]/);
-        return "meta";
-      }
-    }
-  });
 }());
