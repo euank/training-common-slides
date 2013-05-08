@@ -1,3 +1,15 @@
+.deck-container {
+  background-color: #e6faff;
+}
+
+.deck-container .slide {
+  background-color: #e6faff;
+}
+
+.CodeMirror-lines {
+  background-color: white;
+}
+
 .deck-container.agenda #slide-0:after {
   position: absolute;
   bottom: 0px;
